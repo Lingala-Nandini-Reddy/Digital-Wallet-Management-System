@@ -30,14 +30,15 @@ The next T lines each contain three integers: from_userID, to_userID, amount, wh
 
 ## Output Format
 For each transaction:
-bash
+```bash
 Print "Success" if the transaction was completed successfully.
 
 Print "Failure" if the transaction failed
 
+```
 Print all users in sorted order based on their leftover balance.
 
-bash
+```bash
 Sample Input 0
 4
 1 9000
@@ -51,8 +52,8 @@ Sample Input 0
 2 3 500
 4 1 7500
 1 4 1500
-
-bash
+```
+```bash
 Sample Output 0
 
 Success
@@ -65,3 +66,4 @@ Success
 3 5000
 1 6500
 4 6500
+```
